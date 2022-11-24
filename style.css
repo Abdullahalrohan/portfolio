@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+.h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: orange;
 }
 
-section {
+.flex-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -24,21 +28,57 @@ section {
 .half-width img {
     width: 80%;
 }
-.button{
+
+.button {
     text-decoration: none;
     padding: 10px 40px;
     background-color: orange;
     color: aliceblue;
     border-radius: 10px;
-    background-image: linear-gradient(rgb(255, 136, 0) , tomato);
+    background-image: linear-gradient(rgb(255, 136, 0), tomato);
     font-weight: 700;
 }
-.top-banner{
+
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.dream-big{
+
+.dream-big {
     background-image: url(images/dream-bg.png);
-    background-repeat:no-repeat;
-    background-position:right ;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.exp-box {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    border-radius: 10px;
+
+}
+
+.expriences {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#first-box {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+#second-box {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(71, 255, 184), rgb(119, 0, 255));
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
+    color: gray;
 }
